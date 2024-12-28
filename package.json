@@ -41,7 +41,8 @@
     "lint": "eslint src --ext .ts,.tsx --cache",
     "prepare": "npm run build",
     "test": "jest",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "postinstall": "npm run build"
   },
   "jest": {
     "preset": "react-native"
