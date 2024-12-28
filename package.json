@@ -42,7 +42,7 @@
     "prepare": "npm run build",
     "test": "jest",
     "type-check": "tsc --noEmit",
-    "postinstall": "npm run build"
+    "postinstall": "tsc"
   },
   "jest": {
     "preset": "react-native"
@@ -95,8 +95,5 @@
       "javaPackageName": "com.reactnativecommunity.clipboard"
     }
   },
-  "packageManager": "yarn@4.1.1",
-  "workspaces": [
-    "example"
-  ]
+  "packageManager": "yarn@4.1.1"
 }
