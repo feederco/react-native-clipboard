@@ -7,7 +7,6 @@
     "outDir": "dist",
     "lib": ["es2016"],
     "jsx": "react",
-    "moduleResolution": "nodenext",
     "declaration": true,
     /* Strict Type-Checking Options */
     "strict": true /* Enable all strict type-checking options. */,

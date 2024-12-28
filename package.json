@@ -42,7 +42,7 @@
     "prepare": "npm run build",
     "test": "jest",
     "type-check": "tsc --noEmit",
-    "postinstall": "tsc"
+    "postinstall": "tsc --project tsconfig.json"
   },
   "jest": {
     "preset": "react-native"
