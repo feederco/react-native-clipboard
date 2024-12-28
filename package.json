@@ -20,17 +20,6 @@
   "author": "M.Haris Baig <harisbaig100@gmail.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "RNCClipboard.podspec",
-    "ios",
-    "macos",
-    "android",
-    "windows",
-    "jest",
-    "src",
-    "!android/**/build/*"
-  ],
   "scripts": {
     "ios": "react-native run-ios",
     "android": "react-native run-android --root example",
